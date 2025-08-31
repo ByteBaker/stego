@@ -23,13 +23,13 @@ pip install -e .
 
 ```bash
 # 4spach method
-stego 4spach encode --text "Hello World" --data "secret"
-stego 4spach decode --text "encoded_text"
+stego 4spach encode --cover cover.txt --data secret.txt --output encoded.txt
+stego 4spach decode --input encoded.txt --output decoded.txt
 
 # Other methods (coming soon)
-stego ait-steg encode --text "cover" --data "secret" --key "password"
-stego twsm encode --text "cover" --data "secret"
-stego em-st encode --text "cover" --data "secret"
+stego ait-steg encode --cover cover.txt --data secret.txt --key "password" --output encoded.txt
+stego twsm encode --cover cover.txt --data secret.txt --output encoded.txt
+stego em-st encode --cover cover.txt --data secret.txt --output encoded.txt
 ```
 
 ## Structure
