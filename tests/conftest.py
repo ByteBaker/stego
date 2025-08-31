@@ -29,13 +29,13 @@ def sample_files(temp_dir, sample_cover_text, sample_secret):
     """Create sample files for testing."""
     cover_file = os.path.join(temp_dir, "cover.txt")
     secret_file = os.path.join(temp_dir, "secret.txt")
-    
+
     with open(cover_file, 'w', encoding='utf-8') as f:
         f.write(sample_cover_text)
-    
+
     with open(secret_file, 'w', encoding='utf-8') as f:
         f.write(sample_secret)
-    
+
     return {
         'cover': cover_file,
         'secret': secret_file,

@@ -3,7 +3,7 @@ Stego: Simple steganography toolkit with multiple encoding methods.
 
 Available methods:
 - 4spach: Four invisible Unicode characters for binary encoding
-- ait_steg: Zero-width Unicode with dynamic keys  
+- ait_steg: Zero-width Unicode with dynamic keys
 - twsm: Text formatting (bold/italic) encoding
 - em_st: Emoticon-based encoding
 """
