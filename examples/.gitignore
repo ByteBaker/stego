@@ -1,0 +1,15 @@
+# Generated output files from demos
+*_encoded.txt
+*_result.txt
+*_decoded.txt
+*_wrong.txt
+*.out
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp

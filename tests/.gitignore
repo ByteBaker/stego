@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test outputs
+*.tmp
+*.temp
+test_*.txt
+output_*.txt
+
+# Coverage reports
+.coverage
+htmlcov/
+*.cover
