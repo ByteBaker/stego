@@ -5,10 +5,10 @@ Stego CLI entry point
 
 import argparse
 import sys
-from methods.fourspach import FourSpachMethod
-from methods.ait_steg import AITStegMethod  
-from methods.twsm import TWSMMethod
-from methods.em_st import EmStMethod
+from .methods.fourspach import FourSpachMethod
+from .methods.ait_steg import AITStegMethod  
+from .methods.twsm import TWSMMethod
+from .methods.em_st import EmStMethod
 
 
 def create_parser():
